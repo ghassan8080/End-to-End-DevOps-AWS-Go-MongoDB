@@ -12,7 +12,7 @@ export const options = {
 };
 
 export default function () {
-  const res = http.get('http://goapp.johnydev.com');
+  const res = http.get('http://goapp.ghassan.free.nf');
   check(res, { 'status was 200': (r) => r.status == 200 });
   sleep(1);
 }
